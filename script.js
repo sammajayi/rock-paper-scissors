@@ -1,0 +1,1 @@
+let scorePoints = document.getElementById('score-points')

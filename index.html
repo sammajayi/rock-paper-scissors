@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-    <link rel="stylesheet" href="style.css">
-   
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
     <title>Rock, Paper, Scissors</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <!-- <div class="header-board"> -->
-            <div class="logo">
-                <img src="./assets/images/logo.svg" alt="logo">
-            </div>
-            <div class="score-div">
-                <div><h5>Score</h5></div>
-                <div id="score-points"><p>12</p></div>
-            <!-- </div> -->
-        </div>
-        
+      <!-- <div class="header-board"> -->
+      <div class="logo">
+        <img src="./assets/images/logo.svg" alt="logo" />
+      </div>
+      <div class="score-div">
+        <div><h5>Score</h5></div>
+        <div id="score-points"><p>12</p></div>
+        <!-- </div> -->
+      </div>
     </header>
 
-
+    <div class="game-complete">
+      <div><p id="final-score">YOU WIN</p></div>
+      <button id="restart">PLAY AGAIN</button>
+    </div>
 
     <div class="rules">
-        <button>RULES</button>
+      <button id="game-rules">RULES</button>
     </div>
-</body>
+  </body>
 </html>
